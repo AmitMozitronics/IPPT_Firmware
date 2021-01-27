@@ -1,5 +1,0 @@
-Compiling D:\SVN\Work\Projects\Automation\InMotionWeighing\02_Designs\04_Firmware\01_CUT\01_Code\IMWM-V8.0\M0_ADC_Module\vmIMW_MCU0 on 23-Nov-19 at 12:17
-D:\SVN\Work\Projects\Automation\InMotionWeighing\02_Designs\04_Firmware\01_CUT\01_Code\IMWM-V8.0\M0_ADC_Module\vmIMW_MCU0.c:0:0:  Info#300  More info:   *3* I/O error 32
-D:\SVN\Work\Projects\Automation\InMotionWeighing\02_Designs\04_Firmware\01_CUT\01_Code\IMWM-V8.0\M0_ADC_Module\vmIMW_MCU0.c:0:0:  Error#44  Internal Error - Contact CCS  OUTPUT FILE
-      1 Errors,  0 Warnings.
-Build Failed.
