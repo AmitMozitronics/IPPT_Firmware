@@ -1,0 +1,74 @@
+Compiling D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmIMW_MCU0 on 13-Jan-21 at 13:39
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmCRCConfig.h:77:1:  Warning#203  Condition always TRUE
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmCRCConfig.h:87:1:  Warning#203  Condition always TRUE
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0Common.h:13:22:  Warning#225  Duplicate #define
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmIMW_MCU0.c:266:1:  Warning#216  Interrupts disabled during call to prevent re-entrancy:  (@DIV88)
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:240:25:  Warning#202  Variable never used:   g_boardModeType
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:241:25:  Warning#202  Variable never used:   g_boardModeTypePre
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:242:25:  Warning#202  Variable never used:   g_ui16DIStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:243:25:  Warning#202  Variable never used:   g_ui16DOStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:244:25:  Warning#202  Variable never used:   g_ui16ErrorStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:245:25:  Warning#202  Variable never used:   g_ui8IncrementIndex
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:246:25:  Warning#202  Variable never used:   g_fIBUSendLockStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:247:25:  Warning#202  Variable never used:   g_ui8IBUTempByte
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:248:25:  Warning#202  Variable never used:   g_fDataReady
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:254:37:  Warning#202  Variable never used:   g_unIBUResetCalib
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUGlobal.h:258:37:  Warning#202  Variable never used:   g_unIBUResetCalibWeight
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:91:27:  Warning#202  Variable never used:   g_ui8IBURcvBitCount
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:92:27:  Warning#202  Variable never used:   g_ui8IBUTxBitCount
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:95:27:  Warning#202  Variable never used:   g_ui8IBUDataToSend
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:96:27:  Warning#202  Variable never used:   g_fIBUCommStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:100:27:  Warning#202  Variable never used:   g_ui8ArrSendSingleMSG
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:101:27:  Warning#202  Variable never used:   g_fIBUDataReceived
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:110:27:  Warning#202  Variable never used:   g_ui8fTimer0State
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:112:27:  Warning#202  Variable never used:   g_fIBUDataRcvStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:484:19:  Warning#202  Variable never used:   ui8CurPosition
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmIBUConfig.h:929:15:  Warning#202  Variable never used:   g_ui8CompleteMSGFound
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmDigitalIOConfig.h:110:17:  Warning#202  Variable never used:   g_unAllCounters
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmDigitalIOConfig.h:111:17:  Warning#202  Variable never used:   g_unDIStateFilter
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmStateMachine.h:195:16:  Warning#202  Variable never used:   g_ui32AllDIsPreviousState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmStateMachine.h:201:16:  Warning#202  Variable never used:   g_uiStateChange
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmStateMachine.h:202:16:  Warning#202  Variable never used:   g_fSuctionWait
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmStateMachine.h:203:16:  Warning#202  Variable never used:   g_ui16TimerCount
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmStateMachine.h:282:20:  Warning#202  Variable never used:   ui16DOState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmStateMachine.h:284:20:  Warning#202  Variable never used:   i8TempState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\Common\vmStateMachine.h:285:33:  Warning#202  Variable never used:   pStLookUptableNode
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmStateMachineForIMW_M0.h:105:15:  Warning#202  Variable never used:   g_fStateMac1StartCanTransfer
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:38:15:  Warning#202  Variable never used:   g_fWtCalculationState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:53:16:  Warning#202  Variable never used:   g_ui16PrevDynamicTareValue
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:54:16:  Warning#202  Variable never used:   g_i32StaticTareValue
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:55:16:  Warning#202  Variable never used:   g_fResetCalibStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:57:16:  Warning#202  Variable never used:   g_i32ADCSumValue
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:58:16:  Warning#202  Variable never used:   g_i32ADCAvgValue
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:59:16:  Warning#202  Variable never used:   g_ui16ADCCalibValueEEPROM
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:60:16:  Warning#202  Variable never used:   g_ui16CalibPointEEPROM
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:61:16:  Warning#202  Variable never used:   g_i16CalibResetPrevValue
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmM0ADCModuleCommon.h:62:16:  Warning#202  Variable never used:   g_i16DynamicErrValue
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmADCManager.h:27:6:  Warning#202  Variable never used:   g_fIgnore_TIMER
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmADCManager.h:66:16:  Warning#202  Variable never used:   g_ui8DataCollectionState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmADCManager.h:68:15:  Warning#202  Variable never used:   g_ui8CurMaxDataCount
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmADCManager.h:70:19:  Warning#202  Variable never used:   g_ui16NoOfADCData
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmADCManager.h:71:19:  Warning#202  Variable never used:   g_ui32ADCAvg
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmADCManager.h:135:20:  Warning#202  Variable never used:   ui16TempTareWeight
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmADCManager.h:136:20:  Warning#202  Variable never used:   ui16TempDynErrValue
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:35:16:  Warning#202  Variable never used:   g_ui16DelayStabilizePipePresense
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:79:16:  Warning#202  Variable never used:   g_uiCountSendADCData
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:83:16:  Warning#202  Variable never used:   g_fDIChangeState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:84:16:  Warning#202  Variable never used:   g_fADCCurrState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:85:16:  Warning#202  Variable never used:   g_ui16IntmidDataSendTikCount
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:86:16:  Warning#202  Variable never used:   g_uiPusherDelayTikCount
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:87:6:  Warning#202  Variable never used:   g_fPusherDelayStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:88:6:  Warning#202  Variable never used:   g_fRejectPusherPrevState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:90:17:  Warning#202  Variable never used:   g_ui16AfterBoxLeftDelayTimeCounter
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:91:17:  Warning#202  Variable never used:   g_fBoxLeftDelayState
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:92:17:  Warning#202  Variable never used:   g_fExitTimeDataSendingStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:96:17:  Warning#202  Variable never used:   g_fWaitingStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:97:17:  Warning#202  Variable never used:   g_fWeighingStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:98:17:  Warning#202  Variable never used:   g_fHomeWaitingStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:99:17:  Warning#202  Variable never used:   g_fTareStartStatus
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmTimerConfig.h:100:17:  Warning#202  Variable never used:   g_ui16TimingCounter
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\mzPWTStateMachine.h:14:5:  Warning#202  Variable never used:   i
+D:\Work\Projects\PWT\01_Code\PWT-V3.2.2\M0_ADC_Module\vmIMW_MCU0.c:135:22:  Warning#202  Variable never used:   stIBUData
+      Memory usage:   ROM=19%      RAM=75% - 77%
+      0 Errors,  70 Warnings.
+Build Successful.

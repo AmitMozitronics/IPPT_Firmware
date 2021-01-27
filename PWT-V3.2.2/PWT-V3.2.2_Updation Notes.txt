@@ -1,0 +1,7 @@
+#### Version Updates ###########################
+This version is fully updated for functioning the software above 64kg along with updation of introducing
+two proximity sensors in version 3.2
+
+** Above 64kg properly data read from EEPROM.
+
+** count wise data missing problem resolved.
