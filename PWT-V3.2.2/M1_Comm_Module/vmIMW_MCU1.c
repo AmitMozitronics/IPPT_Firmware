@@ -81,7 +81,7 @@ void main()
     InitializeRcvQ();
     
     // Set GSM modem ready
-    delay_ms(3000);
+    //delay_ms(3000);
     
 
 	// Reset WDT.
@@ -136,27 +136,6 @@ void main()
             g_fTSWriteToEEPROMSignal = TIME_STAMP_SIGNAL_COMPLETE;
         }
         
-//        // Step 7: Check if keep alive send status is active.
-//        if(KEEP_ALIVE_SEND_PROCESS_ON == g_fKeepAliveSendStatus)
-//        {
-//            // Check if GPRS data queue is empty.
-//            if(-1 == g_stGPRSMsgSendQueue.m_i8Front)
-//            {
-//                // Queue is empty.
-//                // Stuff keep alive data in queue.
-//                InsertInGPRSQueue();
-//            }
-//            
-//            // Reset keep alive monitoring counter.
-//            g_ui8KeepAliveMonitoringCounter = 180;
-//            
-//            // Reset flag status.
-//            g_fKeepAliveSendStatus = KEEP_ALIVE_SEND_PROCESS_OFF;
-//            
-//            // Set flag to check query on time.
-//            g_fKeepAliveQueryCheck = CHECK_FOR_QUERY_START;
-//           
-//        }
         
         // Here, pipe current weight or pipe data will be sent through LAN.
         // By modular data sending process we can uninterruptedly run peripheral
@@ -203,8 +182,8 @@ void main()
                 g_fIsTimedOut == 0)
         {
             // Check for server response.
-            //ui8RetVal = CheckServerResponse();
-            ui8RetVal = 0;
+            ui8RetVal = CheckServerResponse();
+            //ui8RetVal = 0;
             
             // Check return value.
             if(ui8RetVal == 0)  // Server response received.
