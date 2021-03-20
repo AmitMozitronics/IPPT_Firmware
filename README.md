@@ -1,2 +1,0 @@
-# IPPT
-Repository 1
