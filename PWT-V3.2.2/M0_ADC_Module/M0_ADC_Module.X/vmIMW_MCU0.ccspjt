@@ -1,0 +1,16 @@
+[PROJECT]
+Target=build\default\production\_ext\1472\vmIMW_MCU0.hex
+Processor_Text=PIC18F66K40
+CCSVersion=5.083
+Compiler=PCH
+[Target Data]
+FileList=..\vmIMW_MCU0.c
+[build\default\production\_ext\1472\vmIMW_MCU0.c]
+Type=4
+[mru-list]
+1=build\default\production\_ext\1472\vmIMW_MCU0.c
+[build\default\debug\_ext\1472\vmIMW_MCU0.c]
+Type=4
+[Units]
+Count=1
+1=..\vmIMW_MCU0 (main)
