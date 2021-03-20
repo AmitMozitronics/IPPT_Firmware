@@ -131,13 +131,13 @@ void main()
     enable_interrupts(GLOBAL);   
     
     
-    // TESTING Start
+    // TESTING Start.
     ST_IBU_DATA_NODE stIBUData;
 
     // Set system mode at start up.
     g_ui8SystemMode = SYS_MODE_WAKE_UP;
   
-    // Set Rejection State ON
+    // Set Rejection State ON.
     g_unDIState.m_stAllDIBits.m_ui1GDICn01  = PIPE_REJECTED;
     g_unDIState.m_stAllDIBits.m_ui1GDICn02  = 1;
     g_unDOState.m_stAllDOBits.m_ui1HWDOCn01 = 1;
