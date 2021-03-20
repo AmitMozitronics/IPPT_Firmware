@@ -1,0 +1,128 @@
+
+ROM used:   12706/65536 (19%)
+            12706/65536 (19%) including unused fragments
+
+            1.7 Average locations per line
+            22.2 Average locations per statement
+
+RAM used:   2675/3562 (75%) at main() level
+            2734/3562 (77%) worst case
+
+Stack used: 4 worst case (2 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  269    99  17  ..\vmIMW_MCU0.c
+   45     0   0  ..\vmSystemConfig.h
+ 2222     0   0  ..\18F66k40.h
+   98     0   0  ..\vmPINConfig.h
+ 1008     0   0  ..\..\Common\vmIBUConfig.h
+  133    37   6  ..\..\Common\vmCRCConfig.h
+  268     0   0  ..\..\Common\vmIBUGlobal.h
+  180    44   8  ..\..\Common\vmCircularQ.h
+  112    14   2  ..\..\Common\vmADS1232.h
+   53    15   3  ..\..\Common\vmEEPROMConfig.h
+  645     0   0  ..\..\Common\vmStateMachine.h
+  185     0   0  ..\..\Common\vmDigitalIOConfig.h
+  380     0   0  ..\vmTimerConfig.h
+  433    61  11  ..\vmStateMachineForIMW_M0.h
+  356    81  14  ..\vmADCManager.h
+   91     0   0  ..\vmM0ADCModuleCommon.h
+  145     0   0  ..\vmAverageWeightCalculation.h
+  181     0   0  ..\vmEEPROMConfig_M0.h
+   34     0   0  ..\vmM0Common.h
+  321   151  26  ..\mzPWTStateMachine.h
+  178    70  12  ..\vmIBCProcessM0.h
+----- -----
+ 7337   572 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     54   0    1             @delay_ms1
+0     32   0    0             @GETCH_BIU_1
+0     14   0    0             @PUTCHARI_BIU_2
+0     32   0    0             @GETCH_BIU_2
+0    182   1   13    995 11.3  calculateCrc
+0     30   0    0    112  3.0  InitializeRcvQ
+0     38   0    0             @MEMSET
+0     82   0    2    369  5.6  ElementsInQ
+0     52   0    3             @DIV88
+0     12   0    0     38  0.9  InitIBURxInterrupt
+0     12   0    0     37  1.1  InitCamRxInterrupt
+0     72   0    4    125  3.4  rda4_isr
+0    146   1    8    345  5.8  InitializeDataQueue
+0     34   0    5             @MUL1616
+0     70   0    8    193  5.0  CopyIBUMsg
+0    472   2    6    884  9.2  InsertIBUMsgQueue
+0    236   1    6    460  7.1  DeleteIBUMsgQueue
+0    112   0    6    162  5.2  GetIBUMsgQueue
+0    156   1    4    325  5.5  RemoveIBUMsgQueue
+0     44   0    4    159  4.5  IsMSGInIBUQueue
+0    320   1    3   2116  9.6  SendIBUMSGFromQ
+0     64   0    1    228  3.7  ProcessACK
+0    910   4    7   4106 12.2  CheckIBUReceiveQ
+0     94   0    4    247  4.3  uart1_Rx_isr
+0    130   1    5    487  4.8  read
+0    130   1    5    230  4.2  WriteEEPROMInt16
+0    110   0    7    237  4.0  ReadEEPROMInt16
+0     84   0    3    319  4.7  InitializeAvgWtQueue
+0    360   1   14    898  8.3  InsertAvgWtQueue
+0    172   1   13             @DIV3232
+0    128   1   17    410  4.6  IBUSendProdModeAvgData
+0     38   0    4     94  2.7  WriteLCFToEEPROM
+0     42   0    2     84  2.3  ReadLCFFromEEPROM
+0    100   0    9    295  4.0  WriteMaxWeightToEEPROM
+0    100   0    9    295  4.0  WriteMinWeightToEEPROM
+0    150   1    9    383  4.8  ReadMaxWeightFromEEPROM
+0    150   1    9    383  4.8  ReadMinWeightFromEEPROM
+0     26   0    2     39  1.5  WritePipePresenceDelayToEEPROM
+0     42   0    2     72  2.0  ReadPipePresenceDelayFromEEPROM
+0     26   0    2     39  1.5  WritePipeStabilizationDelayToEEPROM
+0     42   0    2     72  2.0  ReadPipeStabilizationDelayFromEEPROM
+0     26   0    2     39  1.5  WritePipeTransferDelayToEEPROM
+0     42   0    2     72  2.0  ReadPipeTransferDelayTime
+0     26   0    2     39  1.5  WriteWeighingCylinderActivationDelayToEEPROM
+0     42   0    2     87  0.9  ReadWeighingCylinderActivationDelayfromEEPROM
+0    240   1   20    219  3.8  GetCalibratedWeight
+0     68   0    4             @DTOF
+0    288   1   11             @MULFF
+0     72   0    5             @FTOSD
+0    386   2   25    894  7.4  IBUSendWeighingData
+0    124   0   21    404  5.7  IBUSendTareData
+0    132   1   21    404  5.7  IBUSendCalibResetData
+0     68   0   16    246  5.0  SendAlarmtoAnotherMCU
+0     68   0   16    265  3.5  SendResetAlarmtoAnotherMCU
+0     34   0    0    112  2.6  InitDigitalIOPollingTimer
+0    684   3    2   2674  8.7  DigitalIOPolling_isr
+0   1472   6    2   4127 10.6  PWTStateMachine
+0    954   4   18   3401 10.3  ProcessIBUMsg
+0     68   0    2             @ITOF
+0    502   2   14             @DIVFF
+0    334   1    5    942  5.4  InitGlobalVariables
+0     20   0    0     61  1.2  InitSystemInterrupts
+0   1544   6   13   1625  9.3  MAIN
+0     42   0    0             @goto7492
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               50
+    Statements              572
+    Comments                1462
+    Volume (V)              53731
+    Difficulty (D)          246.3
+    Effort to implement (E) 13234296
+    Time to implement (T)   204 hours, 14 minutes
+    Est Delivered Bugs (B)  19
+    Cyclomatic Complexity   156
+    Maintainability (MI)    138
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00174   366  0  
+00176-0FFFE  12336  52826  
+
+
+
