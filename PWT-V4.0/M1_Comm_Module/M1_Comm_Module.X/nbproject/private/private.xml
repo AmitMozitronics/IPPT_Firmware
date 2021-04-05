@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="IMWM-V10.0">
+            <file>file:/D:/Work/IMWM-CAM/IMWM_Cam/01_Code/IMWM-V10.0/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/IMWM-CAM/IMWM_Cam/01_Code/IMWM-V10.0/Common/vmIBUConfig.h</file>
+            <file>file:/D:/Work/IMWM-CAM/IMWM_Cam/01_Code/IMWM-V10.0/M1_Comm_Module/vmRS485Config.h</file>
+        </group>
+        <group name="IMWM-V7.4">
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.4/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.4/M1_Comm_Module/vmSystemConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.4/M1_Comm_Module/vmPINConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.4/M1_Comm_Module/vmIBCProcessM1.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.4/M1_Comm_Module/vmIMW_MCU1.c</file>
+        </group>
+        <group name="IMWM-V7.5">
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.5/M1_Comm_Module/vmCommon.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.5/M1_Comm_Module/vmIBCProcessM1.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.5/M1_Comm_Module/vmGSMM66_GPRSConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.5/M1_Comm_Module/18F66K40.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.5/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.5/M1_Comm_Module/vmSystemConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V7.5/M1_Comm_Module/vmIMW_MCU1.c</file>
+        </group>
+        <group name="IMWM-V8.0">
+            <file>file:/D:/SVN/Work/Projects/Automation/InMotionWeighing/02_Designs/04_Firmware/01_CUT/01_Code/IMWM-V8.0/Common/vmIBUConfig.h</file>
+            <file>file:/D:/SVN/Work/Projects/Automation/InMotionWeighing/02_Designs/04_Firmware/01_CUT/01_Code/IMWM-V8.0/M1_Comm_Module/18F66K40.h</file>
+            <file>file:/D:/SVN/Work/Projects/Automation/InMotionWeighing/02_Designs/04_Firmware/01_CUT/01_Code/IMWM-V8.0/Common/vmIBUGlobal.h</file>
+            <file>file:/D:/SVN/Work/Projects/Automation/InMotionWeighing/02_Designs/04_Firmware/01_CUT/01_Code/IMWM-V8.0/M1_Comm_Module/vmIMW_MCU1.c</file>
+        </group>
+        <group name="IMWM-V9.0">
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.0/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.0/M1_Comm_Module/vmTimerConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.0/M1_Comm_Module/vmIBCProcessM1.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.0/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.0/M1_Comm_Module/vmSystemConfig.h</file>
+        </group>
+        <group name="IMWM-V9.1">
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/M1_Comm_Module/vmGSMM66_GPRSConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/M1_Comm_Module/vmSystemConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/Common/vmADS1232.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/Common/vmIBUConfig.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/M1_Comm_Module/vmGSMM66Config.h</file>
+            <file>file:/D:/Work/IMWM/01_Code/IMWM-V9.1/Common/vmModbusGlobal.h</file>
+        </group>
+        <group name="PWT-V0.0">
+            <file>file:/D:/MoziTronics/Neptune/PWT/01_Code/PWT-V0.0/Common/vmIBUGlobal.h</file>
+            <file>file:/D:/MoziTronics/Neptune/PWT/01_Code/PWT-V0.0/Common/vmIBUConfig.h</file>
+            <file>file:/D:/MoziTronics/Neptune/PWT/01_Code/PWT-V0.0/M1_Comm_Module/vmIMW_MCU1.c</file>
+        </group>
+        <group name="PWT-V1.0">
+            <file>file:/D:/MoziTronics/Projects/Neptune/PWT/01_Code/PWT-V1.0/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/MoziTronics/Projects/Neptune/PWT/01_Code/PWT-V1.0/M1_Comm_Module/vmIBCProcessM1.h</file>
+        </group>
+        <group name="PWT-V2.0"/>
+        <group name="PWT-V2.1">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.1/M1_Comm_Module/vmTimerConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.1/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.1/M1_Comm_Module/vmRS485Config.h</file>
+        </group>
+        <group name="PWT-V2.2">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.2/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.2/M1_Comm_Module/vmTimerConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.2/M1_Comm_Module/mzEEPROMConfig_MCU1.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.2/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.2/M1_Comm_Module/vmGSMM66_GPRSConfig.h</file>
+        </group>
+        <group name="PWT-V2.4">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4/M1_Comm_Module/vmGSMM66_GPRSConfig.h</file>
+        </group>
+        <group name="PWT-V2.4.1">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/M1_Comm_Module/vmIBCProcessM1.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/Common/vmIBUConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/Common/vmADS1232.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/M1_Comm_Module/vmGSMM66_GPRSConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/M1_Comm_Module/vmGSMM66Config.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/M1_Comm_Module/time.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.1/M1_Comm_Module/18F66K40.h</file>
+        </group>
+        <group name="PWT-V2.4.2">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.2/M1_Comm_Module/vmRS485Config.h</file>
+        </group>
+        <group name="PWT-V2.4.3">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.3/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.3/M1_Comm_Module/vmTimerConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.3/M1_Comm_Module/vmM1Common.h</file>
+        </group>
+        <group name="PWT-V2.4.4">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/vmTimerConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/18F66K40.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/mzEEPROMConfig_MCU1.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/time.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/vmGSMM66_GPRSConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/Common/vmCRCConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/vmM1Common.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/Common/vmIBUConfig.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.4/M1_Comm_Module/vmSystemConfig.h</file>
+        </group>
+        <group name="PWT-V2.4.5">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.5/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.5/M1_Comm_Module/vmGSMM66Config.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V2.4.5/M1_Comm_Module/vmGSMM66_GPRSConfig.h</file>
+        </group>
+        <group name="PWT-V2.4.6"/>
+        <group name="PWT-V3.0">
+            <file>file:/D:/WORK/PWT/Controller/PWT-V3.0/M1_Comm_Module/mzLANCommConfig.h</file>
+        </group>
+        <group name="PWT-V3.1">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V3.1/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V3.1/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V3.1/M1_Comm_Module/mzLANCommConfig.h</file>
+        </group>
+        <group name="PWT-V3.2">
+            <file>file:/D:/WORK/PWT/Controller/Final/PWT-V3.2/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/WORK/PWT/Controller/Final/PWT-V3.2/M1_Comm_Module/mzLANCommConfig.h</file>
+            <file>file:/D:/WORK/PWT/Controller/Final/PWT-V3.2/M1_Comm_Module/vmRS485Config.h</file>
+            <file>file:/D:/WORK/PWT/Controller/Final/PWT-V3.2/M1_Comm_Module/vmSystemConfig.h</file>
+        </group>
+        <group name="PWT-V3.2.1">
+            <file>file:/D:/WORK/PWT/Controller/Final/PWT-V3.2.1/M1_Comm_Module/vmSystemConfig.h</file>
+            <file>file:/D:/WORK/PWT/Controller/Final/PWT-V3.2.1/M1_Comm_Module/vmIBCProcessM1.h</file>
+            <file>file:/D:/WORK/PWT/Controller/Final/PWT-V3.2.1/M1_Comm_Module/vmIMW_MCU1.c</file>
+        </group>
+        <group name="PWT-V3.2.2">
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V3.2.2/M1_Comm_Module/vmIMW_MCU1.c</file>
+            <file>file:/D:/Work/Projects/PWT/01_Code/PWT-V3.2.2/M1_Comm_Module/mzLANCommConfig.h</file>
+        </group>
+        <group name="PWT-V4.0"/>
+    </open-files>
+</project-private>
