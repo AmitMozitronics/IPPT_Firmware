@@ -1,0 +1,135 @@
+
+ROM used:   18214/65536 (28%)
+            18214/65536 (28%) including unused fragments
+
+            2.1 Average locations per line
+            16.6 Average locations per statement
+
+RAM used:   3065/3562 (86%) at main() level
+            3122/3562 (88%) worst case
+
+Stack used: 4 worst case (2 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  263    90   8  ..\vmIMW_MCU1.c
+   47     0   0  ..\vmSystemConfig.h
+ 2222     0   0  ..\18F66K40.h
+   37     0   0  ..\vmPINConfig.h
+  149     0   0  ..\vmM1Common.h
+  490   140  13  ..\time.h
+  419   159  15  C:\Program Files (x86)\PICC5.083\PICC\drivers\stdlibm.h
+   32     0   0  C:\Program Files (x86)\PICC5.083\PICC\drivers\stddef.h
+   76    13   1  C:\Program Files (x86)\PICC5.083\PICC\drivers\memmgmt.c
+  281    64   6  ..\vmTimerConfig.h
+ 1008     0   0  ..\..\Common\vmIBUConfig.h
+  133     0   0  ..\..\Common\vmCRCConfig.h
+  268     0   0  ..\..\Common\vmIBUGlobal.h
+  180    44   4  ..\..\Common\vmCircularQ.h
+  142     0   0  ..\..\Common\vmModbusGlobal.h
+  151    50   5  ..\vmIBCProcessM1.h
+  864     3   0  ..\vmGSMM66_GPRSConfig.h
+  122     0   0  ..\mzEEPROMConfig_MCU1.h
+   53    15   1  ..\..\Common\vmEEPROMConfig.h
+  195     0   0  ..\mzLANCommConfig.h
+ 1345   517  47  ..\vmRS485Config.h
+----- -----
+ 8477  1095 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     48   0    1             @delay_ms1
+0     12   0    0             @PUTCHARI_BIU_1
+0     26   0    0             @GETCH_BIU_1
+0     12   0    0             @PUTCHARI_BIU_2
+0     28   0    0             @GETCH_BIU_2
+0     28   0    0             @GETCH_BIU_3
+0     34   0    5             @MUL1616
+0     26   0    0             @MEMSET
+0    104   0    3    489  6.5  DaysInMonth
+0    166   0    4    228  5.4  LeapYear
+0     70   0    5             @DIV1616
+0   1276   4   23   1510 11.6  mktime
+0     92   0   14             @MUL3232
+0     44   0    3             @DIV88
+0    234   1   14             @DIVS3232
+0   1022   3   15   1848  8.9  localtime
+0     48   0    1     60  1.8  SetTimeout
+0    148   0   13    995 11.3  calculateCrc
+0     30   0    0    112  3.0  InitializeRcvQ
+0     70   0    2    369  5.6  ElementsInQ
+0     12   0    0     37  1.1  InitIBURxInterrupt
+0    146   0    8    345  5.8  InitializeDataQueue
+0     64   0    8    193  5.0  CopyIBUMsg
+0    464   1    6    884  9.2  InsertIBUMsgQueue
+0    228   1    6    460  7.1  DeleteIBUMsgQueue
+0    120   0    6    162  5.2  GetIBUMsgQueue
+0    138   0    4    325  5.5  RemoveIBUMsgQueue
+0     38   0    4    159  4.5  IsMSGInIBUQueue
+0    300   1    3   2116  9.6  SendIBUMSGFromQ
+0     58   0    1    228  3.7  ProcessACK
+0    820   2    7   4106 12.2  CheckIBUReceiveQ
+0     86   0    4    252  3.9  uart1_Rx_isr
+0     32   0    0     84  1.7  Init1MSTimer
+0    310   1    0   1353  5.4  timer0_isr
+0     54   0    3     56  2.0  WriteEEPROMInt8
+0    128   0    5    230  4.2  WriteEEPROMInt16
+0     44   0    4     82  2.3  ReadEEPROMInt8
+0    114   0    7    241  3.7  ReadEEPROMInt16
+0     20   0    1     39  1.5  WriteMachineIDToEEPROM
+0     30   0    1     72  2.0  ReadMachineIDFromEEPROM
+0     20   0    1     39  1.5  WriteIntervalToEEPROM
+0     30   0    1     72  2.0  ReadIntervalFromEEPROM
+0     94   0   12    328  4.6  WriteCurrentUnixTimeToEEPROM
+0    152   0   11    392  5.0  ReadStoredUnixTimeFromEEPROM
+0     20   0    1     39  1.5  WriteSIMOperatorIDToEEPROM
+0     30   0    1     87  1.0  ReadSIMOPeratorIDFromEEPROM
+0     12   0    0     37  1.1  InitLANCommRxInterrupt
+0     30   0    0     57  1.9  ResetLANCommRxBuffer
+0     20   0    1     82  2.1  InitializeLANMsgHeader
+0     66   0    4    125  3.4  LANData_rcv_isr
+0    274   1    5    398  4.7  InitializePipeDataQueue
+0     28   0    1    144  4.3  IsPipeDataQueueEmpty
+0    324   1    4    542  5.4  InsertInPipeDataQueue
+0    794   2   23    535  2.9  SendDataFromQ
+0    100   0    0             @const1616
+0     44   0    3             @PSTRINGCN_115200_31850_31851
+0    162   0    2             @PRINTF_U_115200_31850_31851
+0    184   1    9             @PRINTF_LU_115200_31850_31851
+0    148   0   13             @DIV3232
+0    192   1   12             @PRINTF_L32U_115200_31850_31851
+0    126   0    3    413  7.0  CheckServerResponse
+0    624   2   17   2591  6.8  ProcessIBUMsg
+0     12   0    0     37  1.1  InitRS485RxInterrupt
+0     28   0    0     57  1.9  ResetRS485RXBuffer
+0    292   1    2   1162  7.8  RS485_RxByteReady_ISR3
+0     42   0    0    255  2.3  SetProductSpecificationForServer
+0    822   2   12   4533  7.7  SendMulResponseToMaster
+0    716   2   21   3864 12.7  SendResponseToMaster
+0   4468  12   14  27247 13.2  ProcessUART2ReceivedData
+0    130   0    0    667  3.9  Initialize
+0   1124   3    3   2026  7.9  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               53
+    Statements              1095
+    Comments                2335
+    Volume (V)              96135
+    Difficulty (D)          275.3
+    Effort to implement (E) 26466616
+    Time to implement (T)   408 hours, 26 minutes
+    Est Delivered Bugs (B)  30
+    Cyclomatic Complexity   198
+    Maintainability (MI)    44
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00180   378  0  
+00182-0FFFE  17832  47318  
+
+
+
